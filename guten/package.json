@@ -1,0 +1,20 @@
+{
+  "name": "countdown-to-force-logout",
+  "version": "1.0.3",
+  "description": "Countdown to force logout",
+  "main": "countdowntoforcelogout.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build:countdowntoforcelogout": "wp-scripts build src/countdowntoforcelogout --output-path=dist",
+    "lint-js": "wp-scripts lint-js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katsushi Kawamori",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "24.6.0"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^6.19.0"
+  }
+}
